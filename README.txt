@@ -1,7 +1,7 @@
-     			README
+= README
   
 
-   ==Description 
+== Description 
    This light-weight daemon program will send continuous poisoned arp packets to the 
    target.  The packets contains the fake matching pair of MAC and IP.
    For example, the MAC address of attacker's sniffer and target's 
@@ -9,7 +9,7 @@
    information destinated for internet to attacker's sniffer mac 
    address instead. A classic example of the Man-in-the-middle attacking tool.  
 
-   ==Install
+== Install
    The program is depending on the following PERL modules:
 	use Proc::PID::File;
 	use POSIX qw(setsid);
@@ -27,7 +27,7 @@
 	...
   
  
-   ==Credit
+== Credit
    Developed by, Yang Li			
    Test in Fedora 11 Linux environment; for other *nix variance, the code
    may need to be customized to run in the daemon mode. 
